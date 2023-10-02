@@ -10,12 +10,12 @@ class App extends Component {
     };
   }
 
-  // Fungsi untuk menambah nilai counter
+  // Menambah nilai counter
   increment = () => {
     this.setState({ count: this.state.count + 1 });
   }
 
-  // Fungsi untuk mengurangi nilai counter
+  // Mengurangi nilai counter
   decrement = () => {
     this.setState({ count: this.state.count - 1 });
   }
